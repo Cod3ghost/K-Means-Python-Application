@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Downloaded dataset (regenerate with download_dlbcl_data.py)
+data/raw/
+
+# Editor / tool-local settings
+.claude/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

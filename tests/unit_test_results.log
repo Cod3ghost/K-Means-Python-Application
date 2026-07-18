@@ -1,0 +1,27 @@
+test_load_dlbcl_gene_expression_assembles_matrix_across_samples (test_kmeans_app.TestDataLoader) ... ok
+test_parse_handles_missing_comment_line (test_kmeans_app.TestDataLoader) ... ok
+test_parse_single_file_keeps_only_protein_coding_genes (test_kmeans_app.TestDataLoader) ... ok
+test_qc_pseudo_rows_are_excluded (test_kmeans_app.TestDataLoader) ... ok
+test_raises_when_data_dir_missing (test_kmeans_app.TestDataLoader) ... ok
+test_raises_when_too_few_samples (test_kmeans_app.TestDataLoader) ... ok
+test_inertia_decreases_as_k_increases (test_kmeans_app.TestKMeans) ... ok
+test_no_cluster_is_left_empty (test_kmeans_app.TestKMeans) ... ok
+test_predict_matches_fit_labels_on_training_data (test_kmeans_app.TestKMeans) ... ok
+test_raises_when_k_exceeds_n_samples (test_kmeans_app.TestKMeans) ... ok
+test_recovers_known_cluster_count_on_separated_blobs (test_kmeans_app.TestKMeans) ... ok
+test_cross_tab_shape (test_kmeans_app.TestMetrics) ... ok
+test_purity_is_perfect_when_clusters_match_labels_exactly (test_kmeans_app.TestMetrics) ... ok
+test_silhouette_score_high_for_well_separated_clusters (test_kmeans_app.TestMetrics) ... ok
+test_silhouette_score_low_for_overlapping_random_labels (test_kmeans_app.TestMetrics) ... ok
+test_explained_variance_ratio_sums_leq_one (test_kmeans_app.TestPCA) ... ok
+test_first_component_captures_dominant_direction (test_kmeans_app.TestPCA) ... ok
+test_reduces_dimensionality (test_kmeans_app.TestPCA) ... ok
+test_variance_target_selects_fewer_components_than_all (test_kmeans_app.TestPCA) ... ok
+test_constant_column_does_not_raise_or_produce_nan (test_kmeans_app.TestStandardScaler) ... ok
+test_output_has_zero_mean_unit_variance (test_kmeans_app.TestStandardScaler) ... ok
+test_transform_before_fit_raises (test_kmeans_app.TestStandardScaler) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.203s
+
+OK

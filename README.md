@@ -1,8 +1,5 @@
 # DLBCL Gene Expression K-Means Python Application
 
-BAN6440 - Applied Machine Learning for Business Analytics
-Module 4 Assignment: K-Means Python Application
-Desmond Amos Bature
 
 ## What this is
 
